@@ -28,7 +28,7 @@ class ProfileState extends State<Profile> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   profilepic("assets/p1.jpeg", "Sarthak Sarkar"),
-                  profilepic("assets/p2.1.jpg", "Shikhar Aggarwal"),
+                  profilepic("assets/p2.1.jpg", "Shikhar Agarwal"),
                 ],
               ),
               Row(
