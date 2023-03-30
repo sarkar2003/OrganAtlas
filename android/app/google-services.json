@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689091374518",
+    "project_id": "organatlas-ce1f2",
+    "storage_bucket": "organatlas-ce1f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689091374518:android:8a99767ac8a09a765f2517",
+        "android_client_info": {
+          "package_name": "com.example.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689091374518-11le1meed9fuocns7j6onqc68o6uhrn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJT7cAvFIbVx1ul6T7zvNU7aLO3IMbgMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689091374518-11le1meed9fuocns7j6onqc68o6uhrn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
