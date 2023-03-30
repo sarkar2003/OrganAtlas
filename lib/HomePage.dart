@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:health/Profile.dart';
 import 'package:health/View.dart';
 import 'package:http/http.dart' as http;
 import 'package:google_fonts/google_fonts.dart';
@@ -152,7 +153,15 @@ class HomePageState extends State<HomePage>
                 });
                 getjsondata();
               },
-              icon: Icon(Icons.refresh))
+              icon: Icon(Icons.refresh)),
+          IconButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (BuildContext context) {
+                  return Profile();
+                }));
+              },
+              icon: Icon(Icons.person))
         ],
       ),
       body: accept_disc != true

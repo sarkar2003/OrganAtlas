@@ -88,7 +88,7 @@ class Tabs extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.all(10.0),
                             child: Text(
-                              "Disclaimer: Please Consult you doctor before taking any action mentioned in any of our data",
+                              "Disclaimer: Please Consult your doctor before taking any action based on our data",
                               style: GoogleFonts.roboto(fontSize: 20),
                             ),
                           ),
