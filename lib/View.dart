@@ -86,10 +86,22 @@ class Tabs extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Padding(
-                            padding: EdgeInsets.all(10.0),
-                            child: Text(
-                              "Disclaimer: Please Consult your doctor before taking any action based on our data",
-                              style: GoogleFonts.roboto(fontSize: 20),
+                            padding: EdgeInsets.all(0.0),
+                            child: Card(
+                              // color: Colors.blueGrey[50],
+                              shape: RoundedRectangleBorder(
+                                  side: BorderSide(),
+                                  borderRadius: BorderRadius.circular(30)),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Text(
+                                  "Disclaimer: Please Consult your doctor before taking any action based on our data",
+                                  style: GoogleFonts.roboto(
+                                      color: Colors.grey[450],
+                                      fontSize: 14,
+                                      fontStyle: FontStyle.italic),
+                                ),
+                              ),
                             ),
                           ),
                           Divider(
@@ -100,7 +112,7 @@ class Tabs extends StatelessWidget {
                                 top: 20.0, left: 5.0, right: 5.0),
                             child: Text(
                               data,
-                              textAlign: TextAlign.center,
+                              textAlign: TextAlign.left,
                               style: GoogleFonts.roboto(
                                   fontSize: 20, color: Colors.black),
                             ),

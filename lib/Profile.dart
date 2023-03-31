@@ -17,17 +17,21 @@ class ProfileState extends State<Profile> {
       ),
       body: Container(
         child: Card(
+          borderOnForeground: true,
           elevation: 50,
           margin: EdgeInsets.all(20),
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(30),
+              side: BorderSide(color: Color(0xff0E80A31), width: 2.0)),
+          // shape:
+          //     RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  profilepic("assets/p1.jpeg", "Sarthak Sarkar"),
+                  profilepic("assets/p1.jpg", "Sarthak Sarkar"),
                   profilepic("assets/p2.1.jpg", "Shikhar Agarwal"),
                 ],
               ),
@@ -37,6 +41,12 @@ class ProfileState extends State<Profile> {
                   profilepic("assets/p3.jpg", "Haider Mustafa Naqvi"),
                   profilepic("assets/p4.jpg", "Abdul Basit"),
                 ],
+              ),
+              Align(
+                alignment: Alignment.bottomCenter,
+                child: Text(
+                  "OrganAtlas © Copyright V1.0 Published : March 2023",
+                ),
               )
             ],
           ),
