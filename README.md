@@ -28,5 +28,4 @@ We welcome contributions to OrganAtlas! If you would like to contribute, please 
 Note : Currently we aren't taking any contributions !!!
 
 Feedback
-
 We value your feedback and suggestions for improving OrganAtlas. If you have any questions or comments, please contact us at sarthaksarkar09@gmail.com or shikharagarwal2004@gmail.com.
